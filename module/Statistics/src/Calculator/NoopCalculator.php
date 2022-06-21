@@ -18,7 +18,7 @@ class NoopCalculator extends AbstractCalculator
     protected function doAccumulate(SocialPostTo $postTo): void
     {
         $this->authors[] = $postTo->getAuthorId();
-        $this->postCount = $this->postCount+1;
+        $this->postCount++;
     }
 
     /**

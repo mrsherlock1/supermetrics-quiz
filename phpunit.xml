@@ -18,4 +18,8 @@
             <directory suffix=".php">./app</directory>
         </whitelist>
     </filter>
+    <php>
+        <env name="FICTIONAL_SOCIAL_API_HOST" value="https://api.supermetrics.com"/>
+        <env name="FICTIONAL_SOCIAL_API_CLIENT_ID" value="ju16a6m81mhid5ue1z3v2g0uh"/>
+    </php>
 </phpunit>
